@@ -13,7 +13,7 @@ public class BaseActivity extends Activity {
 	public void addTask(Future task){
 		taskList.add(task);
 	}
-	
+	//change on line test
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
